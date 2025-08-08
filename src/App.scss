@@ -1,0 +1,15 @@
+.App {
+    padding: 20px;
+    margin: 600px;
+    text-align: center;
+    margin: auto;
+
+    >section {
+        background-color: aliceblue;
+        border: 1px solid #eee;
+        padding: 20px;
+        & :first-child {
+            margin-bottom: 20px;
+        }
+    }
+}
